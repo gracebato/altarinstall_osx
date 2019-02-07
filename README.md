@@ -48,14 +48,12 @@ For AlTar, I recommend that you stick with the versions listed [here](https://gi
 
     `prepend-path PATH /opt/local/bin:/opt/local/sbin`
 
-Otherwise if you did not setup your privatemodule, the messy way of doing this (not recommended) is adding the following line in your **~/.bash_profile**:
+6. Otherwise if you did not setup your privatemodule, the messy way of doing this (not recommended) is adding the following line in your **~/.bash_profile**:
 
-    ```
-    export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-    ```
-
+   `export PATH="/opt/local/bin:/opt/local/sbin:$PATH"`
+    
 ## Getting the AlTar Package 
-Run the following in the terminal:
+1. Run the following in the terminal:
     
     ```
     $ mkdir ~/Documents/AlTar
@@ -84,7 +82,7 @@ Run the following in the terminal:
     set-alias mm.show "mm --show --dry"
     ```
 
-Or your **~/.bash_profile**:
+4. Or your **~/.bash_profile**:
     
     ```
     # mm configuration
@@ -95,7 +93,7 @@ Or your **~/.bash_profile**:
     # end of mm
     ```
 
-4. Add the following to the ~/.bash_profile to be able to call `mm.paths` in your terminal:
+5. Add the following to the ~/.bash_profile to be able to call `mm.paths` in your terminal:
 
     ```
     mm.paths() {
@@ -104,7 +102,7 @@ Or your **~/.bash_profile**:
     }
     ```
 
-5. You are ready to compile! Restart the terminal and type the following,
+6. You are ready to compile! Restart the terminal and type the following,
    
     ```
     $ cd ~/Documents/AlTar/pyre
@@ -112,4 +110,4 @@ Or your **~/.bash_profile**:
     $ mm
     ```
 
-6. To test a simple inversion assuming a point-pressure source (Mogi model), see this link.
+7. To test a simple inversion assuming a point-pressure source (Mogi model), see this link.
