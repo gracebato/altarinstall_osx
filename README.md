@@ -122,4 +122,4 @@ For AlTar, I recommend that you stick with the versions listed [here](https://gi
     $ mm
     ```
 
-7. To test a simple inversion assuming a point-pressure source (Mogi model), see this link.
+7. To test a simple geodetic inversion using a point-pressure source model (i.e. Mogi model), see this link.
