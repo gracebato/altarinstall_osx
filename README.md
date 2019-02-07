@@ -20,7 +20,7 @@ Instructions for setting up AlTar inversion software via macports.
 5. Restart the terminal.    
 
 ## Installing the ports needed for AlTar
-IMPORTANT! Pick a consistent version for installing your ports. Keep in mind that gcc, python and postgresql always evolve in time. I would also recommend to create and/or manage your environment/privatemodules such that you will only load appropriate environment variables and paths. Dumping everything in the `~/.bash_profile` is a recipe for disaster. For setting up your privatemodule, you can refer to this [link](https://github.com/piyushrpt/elCapitanSetup/blob/master/modules.md): 
+**IMPORTANT!** Pick a consistent version for installing your ports. Keep in mind that gcc, python and postgresql always evolve in time. I would also recommend to create and/or manage your environment/privatemodules such that you will only load appropriate environment variables and paths. Dumping everything in the `~/.bash_profile` is a recipe for disaster. For setting up your privatemodule, you can refer to this [link](https://github.com/piyushrpt/elCapitanSetup/blob/master/modules.md): 
 
 For AlTar, I recommend that you stick with the versions listed [here](https://github.com/gracebato/altarinstall_osx/edit/master/macports.md) as these were already tested to work atleast both in High Sierra and Mojave OSX.
 
