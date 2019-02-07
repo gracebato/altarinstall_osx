@@ -105,7 +105,7 @@ For AlTar, I recommend that you stick with the versions listed [here](https://gi
     # end of mm
     ```
 
-5. Add the following to the `~/.bash_profile` to be able to call `mm.paths` in your terminal:
+5. Add the following in the `~/.bash_profile` in order to call `mm.paths` in your terminal:
 
     ```
     mm.paths() {
