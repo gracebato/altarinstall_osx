@@ -1,151 +1,151 @@
-# Ports Necessary for AlTar #
+# Ports Necessary for AlTar 
 
-## C/C++ Compiler ##
-  
+## C/C++ Compiler 
+
    * gcc8
-   
+    
    * openmpi-gcc8 +fortran +threads
-   
-## Python ##
+    
+## Python 
 
    * python37 +readline
    
-## Python Packages ##
-    
-    * py37-coverage
-    
-    * py37-cython
-    
-    * py37-gdal
-    
-    * py37-gnupg
-    
-    * py37-ipython
-    
-    * py37-jupyter
-    
-    * py37-keyring
-    
-    * py37-matplotlib
-    
-    * py37-matplotlib-basemap
-    
-    * py37-nose
-    
-    * py37-numpy
-    
-    * py37-pylint
-    
-    * py37-pyobjc
+## Python Packages
    
-    * py37-regex
+   * py37-coverage
     
-    * py37-reportlab
+   * py37-cython
+    
+   * py37-gdal
+    
+   * py37-gnupg
+    
+   * py37-ipython
+    
+   * py37-jupyter
+    
+   * py37-keyring
+    
+   * py37-matplotlib
+    
+   * py37-matplotlib-basemap
+    
+   * py37-nose
+    
+   * py37-numpy
+    
+   * py37-pylint
+    
+   * py37-pyobjc
+   
+   * py37-regex
+    
+   * py37-reportlab
 
-    * py37-sympy
+   * py37-sympy
 
-    * py37-zmq
+   * py37-zmq
 
-## Linux / Development Tools ##
+## Linux / Development Tools
     
-    * xorg-libXt +flat_namespace
+   * xorg-libXt +flat_namespace
     
-    * bash
+   * bash
     
-    * bash-completion
+   * bash-completion
     
-    * clang-7.0
+   * clang-7.0
     
-    * autoconf
+   * autoconf
     
-    * gnupg2
+   * gnupg2
     
-    * gmake
+   * gmake
     
-    * sshfs
+   * sshfs
 
-    * emacs +x11
+   * emacs +x11
 
-    * ispell
+   * ispell
     
-    * zip
+   * zip
     
-    * unzip
+   * unzip
 
-    * vim +python37
+   * vim +python37
     
-    * wget +ssl
+   * wget +ssl
     
-    * gdb +python37
+   * gdb +python37
     
-    * openmotif
+   * openmotif
     
-    * openblas +gcc8
+   * openblas +gcc8
     
-    * yarn
+   * yarn
     
-    * npm6
+   * npm6
     
-## Repository Managers ##
+## Repository Managers
     
-    * git +bash_completion
+   * git +bash_completion
     
-    * bzr +bash_completion
+   * bzr +bash_completion
 
-    * bzr-fastimport
+   * bzr-fastimport
     
-    * py37-pip
+   * py37-pip
     
-    #### Computational/Visualization Tools
+## Computational/Visualization Tools
     
-    * metis +gcc8
+   * metis +gcc8
     
-    * parmetis +gcc8 +openmpi
+   * parmetis +gcc8 +openmpi
     
-    * fftw-3-single
+   * fftw-3-single
 
-    * vtk +python37
+   * vtk +python37
     
-    * gsl +gcc8
+   * gsl +gcc8
     
-    * graphviz
+   * graphviz
     
-## Data Formats ##
+## Data Formats
     
-    * postgresql10 +python3
+   * postgresql10 +python3
     
-    * postgresql10-server
+   * postgresql10-server
     
-    * hdf5 +cxx +gcc8 +openmpi
+   * hdf5 +cxx +gcc8 +openmpi
     
-## Documentation ##
+## Documentation
     
-    * texlive-bin
+   * texlive-bin
 
-    * texlive-bin-extra
+   * texlive-bin-extra
     
-    * texlive-latex
+   * texlive-latex
     
-    * texlive-latex-recommended
+   * texlive-latex-recommended
     
-    * texlive-latex-extra
+   * texlive-latex-extra
     
-    * texlive-xetex
+   * texlive-xetex
     
-    * texlive-fonts-recommended
+   * texlive-fonts-recommended
     
-    * texlive-fonts-extra
+   * texlive-fonts-extra
     
-    * texlive-fontutils
+   * texlive-fontutils
     
-    * texlive-pstricks
+   * texlive-pstricks
     
-    * texlive-math-science
+   * texlive-math-science
     
-    * doxygen +latex
+   * doxygen +latex
     
-    * py37-sphinx
+   * py37-sphinx
     
-## GIS ##
+## GIS
     
-    * gdal +gcc8 +hdf5 +postgresql10 +openmpi +sqlite3 +spatialite
+   * gdal +gcc8 +hdf5 +postgresql10 +openmpi +sqlite3 +spatialite
