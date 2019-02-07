@@ -50,58 +50,66 @@ For AlTar, I recommend that you stick with the versions listed [here](https://gi
 
 Otherwise if you did not setup your privatemodule, the messy way of doing this (not recommended) is adding the following line in your **~/.bash_profile**:
 
-    `export PATH="/opt/local/bin:/opt/local/sbin:$PATH"`
+    ```
+    export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+    ```
 
 ## Getting the AlTar Package 
 Run the following in the terminal:
-```
+    
+    ```
     $ mkdir ~/Documents/AlTar
     $ cd ~/Documents/AlTar
     $ git clone https://github.com/pyre/pyre.git
     $ git clone https://github.com/aivazis/mm.git
-    $ git clone https://github.com/altarframework/altar.git
-```
+    $ git clone https://github.com/altarframework/altar.git 
+    ```
 
-## Compiling AlTar ##
+## Compiling AlTar
 1. Make sure you have a folder named `tools` in your home directory (otherwise, you can create using `$ mkdir ~/tools`). 
 2. Copy the [config.mm file]() for mm and mm.pfg for pyre in their respective folders. Do the following in your terminal:
 
-```
+    ```
     $ mkdir ~/.mm ~/.pyre
     $ mv config.mm ~/.mm
     $ mv mm.pfg ~/.pyre
-```
+    ```
 
 3. Edit your **privatemodule file** for Altar:
-```
+
+    ```
     set DV_DIR ${HOME}/Documents/AlTar
     set-alias mm "python3 ${DV_DIR}/mm/mm.py"
     set-alias mm.env "mm --env=sh"
     set-alias mm.show "mm --show --dry"
-```
+    ```
 
 Or your **~/.bash_profile**:
-```
+    
+    ```
     # mm configuration
     export DV_DIR=${HOME}/Documents/AlTar
     alias mm='python3 ${DV_DIR}/mm/mm.py'
     alias mm.env='mm --env=sh'
     alias mm.show='mm --show --dry'
     # end of mm
-```
+    ```
 
 4. Add the following to the ~/.bash_profile to be able to call `mm.paths` in your terminal:
-```
+
+    ```
     mm.paths() {
-        eval $(python3 ${DV_DIR}/mm/mm.py --quiet --paths=sh $*)
+      eval $(python3 ${DV_DIR}/mm/mm.py --quiet --paths=sh $*)
+      
     }
-```
+    ```
 
 5. You are ready to compile! Restart the terminal and type the following,
-```
+   
+    ```
     $ cd ~/Documents/AlTar/pyre
     $ mm.paths
     $ mm
-```
+    ```
 
 6. To test a simple inversion assuming a point-pressure source (Mogi model), see this link.
