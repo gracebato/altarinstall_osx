@@ -1,0 +1,66 @@
+xorg-libXt +flat_namespace
+bash
+bash-completion
+gcc8
+clang-7.0
+autoconf
+gnupg2
+gmake
+sshfs
+bzr +bash_completion
+bzr-fastimport
+git +bash_completion
+emacs +x11
+ispell
+zip
+unzip
+python37 +readline
+vim +python37
+postgresql10 +python3
+postgresql10-server
+wget +ssl
+gdb +python37
+openmpi-gcc8 +fortran +threads
+gsl +gcc8
+hdf5 +cxx +gcc8 +openmpi
+fftw-3-single
+vtk +python37
+metis +gcc8
+parmetis +gcc8 +openmpi
+gdal +gcc8 +hdf5 +postgresql10 +openmpi +sqlite3 +spatialite
+openmotif
+texlive-bin
+texlive-bin-extra
+texlive-latex
+texlive-latex-recommended
+texlive-latex-extra
+texlive-xetex
+texlive-fonts-recommended
+texlive-fonts-extra
+texlive-fontutils
+texlive-pstricks
+texlive-math-science
+graphviz
+doxygen +latex
+npm6
+yarn
+openblas +gcc8
+py37-coverage
+py37-cython
+py37-gdal
+py37-gnupg
+py37-ipython
+py37-jupyter
+py37-keyring
+py37-matplotlib
+py37-matplotlib-basemap
+py37-nose
+py37-numpy
+py37-pip
+py37-pylint
+py37-pyobjc
+py37-regex
+py37-reportlab
+py37-sphinx
+py37-sympy
+py37-zmq
