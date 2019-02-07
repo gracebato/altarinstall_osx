@@ -52,6 +52,8 @@ For AlTar, I recommend that you stick with the versions listed [here](https://gi
     $ ./run_portselect.sh
     ```
 
+**Note:** Check if ports are properly selected via `$ port select --summary`.
+
 5. Add the following in the privatemodule file that you specifically created for AlTar:
 
     ```
