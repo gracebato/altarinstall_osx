@@ -1,0 +1,21 @@
+;
+; michael a.g. aïvázis
+; orthologue
+; (c) 1998-2018 all rights reserved
+;
+
+mm:
+    ; targets
+    ; target = debug, shared
+    target = opt, shared
+
+    ; compilers
+    compilers = gcc
+    ; compilers = clang, nvcc, gcc/gfortran
+
+    ; final products
+    prefix = {pyre.environ.HOME}/tools
+    ; intermediate build products
+    bldroot = {pyre.environ.HOME}/tmp/builds
+
+; end of file
