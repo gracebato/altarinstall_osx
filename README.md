@@ -5,11 +5,15 @@ Instructions for setting up AlTar inversion software via macports.
 1. Make sure you have **XCode**. If you haven't installed it yet, get it from the **App Store**.
 2. Install command line tools from within XCode.
 
-    `$ sudo xcode-select --install`
+    ```
+    $ sudo xcode-select --install
+    ```
 
 3. Agree to the terms of license.
 
-    `$ sudo xcodebuild -license`
+    ```
+    $ sudo xcodebuild -license
+    ```
     
 4. Download and install [Macports](https://www.macports.org/install.php) based on your OSX version.
 
@@ -22,11 +26,15 @@ For AlTar, I recommend that you stick with the versions listed [here](https://gi
 
 1. Before installing the ports run the following script to get the updated macport version:
 
-    `$ sudo port selfupdate`
+    ```
+    $ sudo port selfupdate
+    ```
 
 2. And then to install the [necessary ports](https://github.com/gracebato/altarinstall_osx/edit/master/macports.md), simply do the following in your terminal for each of those ports:
 
-    `$ sudo port install <portname> [+optionalvariant]` 
+    ```
+    $ sudo port install <portname> [+optionalvariant]
+    ``` 
     
     (e.g. `sudo port install python37 +readline`)
 
@@ -46,11 +54,15 @@ For AlTar, I recommend that you stick with the versions listed [here](https://gi
 
 5. Add the following in the privatemodule file that you specifically created for AlTar:
 
-    `prepend-path PATH /opt/local/bin:/opt/local/sbin`
+    ```
+    prepend-path PATH /opt/local/bin:/opt/local/sbin
+    ```
 
-6. Otherwise if you did not setup your privatemodule, the messy way of doing this (not recommended) is adding the following line in your **~/.bash_profile**:
+6. Otherwise if you did not setup your privatemodule, the messy way of doing this (not recommended) is adding the following line in your `~/.bash_profile`:
 
-   `export PATH="/opt/local/bin:/opt/local/sbin:$PATH"`
+   ```
+   export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+   ```
     
 ## Getting the AlTar Package 
 1. Run the following in the terminal:
@@ -82,7 +94,7 @@ For AlTar, I recommend that you stick with the versions listed [here](https://gi
     set-alias mm.show "mm --show --dry"
     ```
 
-4. Or your **~/.bash_profile**:
+4. **OR** your `~/.bash_profile`:
     
     ```
     # mm configuration
@@ -93,7 +105,7 @@ For AlTar, I recommend that you stick with the versions listed [here](https://gi
     # end of mm
     ```
 
-5. Add the following to the ~/.bash_profile to be able to call `mm.paths` in your terminal:
+5. Add the following to the `~/.bash_profile` to be able to call `mm.paths` in your terminal:
 
     ```
     mm.paths() {
@@ -102,7 +114,7 @@ For AlTar, I recommend that you stick with the versions listed [here](https://gi
     }
     ```
 
-6. You are ready to compile! Restart the terminal and type the following,
+6. **You are ready to compile!** Restart the terminal and type the following,
    
     ```
     $ cd ~/Documents/AlTar/pyre
